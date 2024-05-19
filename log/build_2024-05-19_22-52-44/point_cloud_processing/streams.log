@@ -1,0 +1,41 @@
+[0.015s] Invoking command in '/home/vallari/Development/ptnet/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/point_cloud_processing -- -j16 -l16
+[0.067s] [ 12%] Built target plane_cloud
+[0.067s] [ 25%] Built target kd_tree
+[0.068s] [ 37%] Built target pcd_import
+[0.069s] [ 50%] Built target circular_cloud
+[0.073s] [ 62%] Built target kitti_voxel
+[0.074s] [ 75%] Built target path_creation
+[0.080s] [ 87%] Built target filtering_segmentation
+[0.083s] [100%] Built target traffic_segmentation
+[0.096s] Invoked command in '/home/vallari/Development/ptnet/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/point_cloud_processing -- -j16 -l16
+[0.181s] Invoking command in '/home/vallari/Development/ptnet/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/point_cloud_processing
+[0.203s] -- Install configuration: ""
+[0.203s] -- Execute custom install script
+[0.203s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/pcd_import
+[0.203s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/plane_cloud
+[0.203s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/circular_cloud
+[0.204s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/filtering_segmentation
+[0.204s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/path_creation
+[0.204s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kitti_voxel
+[0.204s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kd_tree
+[0.204s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/traffic_segmentation
+[0.204s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/bring_rviz.launch.py
+[0.204s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/process_kitti.launch.py
+[0.205s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/rtab_mapping.launch.py
+[0.205s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//rviz/kitti_viz.rviz
+[0.205s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing
+[0.206s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing
+[0.206s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh
+[0.206s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv
+[0.206s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash
+[0.206s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh
+[0.206s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh
+[0.207s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv
+[0.207s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/package.dsv
+[0.211s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing
+[0.211s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake
+[0.211s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake
+[0.211s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/package.xml
+[0.218s] Invoked command in '/home/vallari/Development/ptnet/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/point_cloud_processing

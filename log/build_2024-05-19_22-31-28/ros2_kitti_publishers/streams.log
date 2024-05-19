@@ -1,0 +1,31 @@
+[0.015s] Invoking command in '/home/vallari/Development/ptnet/build/ros2_kitti_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/ros2_kitti_publishers -- -j16 -l16
+[0.069s] [ 50%] Built target ros2_kitti_publishers
+[0.090s] [ 75%] [32mBuilding CXX object CMakeFiles/kitti_publishers.dir/src/kitti_publishers_main.cpp.o[0m
+[5.175s] [100%] [32m[1mLinking CXX executable kitti_publishers[0m
+[5.544s] [100%] Built target kitti_publishers
+[5.554s] Invoked command in '/home/vallari/Development/ptnet/build/ros2_kitti_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/ros2_kitti_publishers -- -j16 -l16
+[5.607s] Invoking command in '/home/vallari/Development/ptnet/build/ros2_kitti_publishers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/ros2_kitti_publishers
+[5.626s] -- Install configuration: ""
+[5.626s] -- Execute custom install script
+[5.627s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/include//ros2_kitti_publishers/WGS84toCartesian.hpp
+[5.627s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/include//ros2_kitti_publishers/kitti_publishers_node.hpp
+[5.627s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/include//ros2_kitti_publishers/visibility.h
+[5.627s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/launch/README.md
+[5.627s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/lib/libros2_kitti_publishers.so
+[5.627s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/lib/ros2_kitti_publishers/kitti_publishers
+[5.628s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ament_index/resource_index/package_run_dependencies/ros2_kitti_publishers
+[5.628s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ament_index/resource_index/parent_prefix_path/ros2_kitti_publishers
+[5.628s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.sh
+[5.628s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/ament_prefix_path.dsv
+[5.629s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.sh
+[5.629s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/environment/path.dsv
+[5.629s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.bash
+[5.629s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.sh
+[5.629s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.zsh
+[5.629s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/local_setup.dsv
+[5.629s] -- Symlinking: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.dsv
+[5.633s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ament_index/resource_index/packages/ros2_kitti_publishers
+[5.634s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig.cmake
+[5.634s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/cmake/ros2_kitti_publishersConfig-version.cmake
+[5.634s] -- Up-to-date symlink: /home/vallari/Development/ptnet/install/ros2_kitti_publishers/share/ros2_kitti_publishers/package.xml
+[5.640s] Invoked command in '/home/vallari/Development/ptnet/build/ros2_kitti_publishers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/ros2_kitti_publishers

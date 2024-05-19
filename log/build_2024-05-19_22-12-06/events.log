@@ -1,0 +1,701 @@
+[0.000000] (-) TimerEvent: {}
+[0.000493] (point_cloud_processing) JobQueued: {'identifier': 'point_cloud_processing', 'dependencies': OrderedDict()}
+[0.000513] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.000525] (point_cloud_processing) JobStarted: {'identifier': 'point_cloud_processing'}
+[0.008991] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.012403] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'cmake'}
+[0.012717] (point_cloud_processing) Command: {'cmd': ['/home/vallari/.local/bin/cmake', '/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing', '-DCMAKE_INSTALL_PREFIX=/home/vallari/Development/ptnet/install/point_cloud_processing'], 'cwd': '/home/vallari/Development/ptnet/build/point_cloud_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vallari'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vallari'), ('OLDPWD', '/home/vallari/Development/ptnet/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vallari/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vallari'), ('DESKTOP_AUTOSTART_ID', '10d5c7e7fbcf1448d2171613291620051800000025290016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vallari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vallari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vallari-laptop:@/tmp/.ICE-unix/2529,unix/vallari-laptop:/tmp/.ICE-unix/2529'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0786257_e7de_4641_a06c_3ea06e3ef8cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vallari/Development/ptnet/build/point_cloud_processing'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '8365315154642626'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.016328] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.017021] (turtlebot3_gazebo) Command: {'cmd': ['/home/vallari/.local/bin/cmake', '/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/vallari/Development/ptnet/install/turtlebot3_gazebo'], 'cwd': '/home/vallari/Development/ptnet/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vallari'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vallari'), ('OLDPWD', '/home/vallari/Development/ptnet/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vallari/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vallari'), ('DESKTOP_AUTOSTART_ID', '10d5c7e7fbcf1448d2171613291620051800000025290016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vallari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vallari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vallari-laptop:@/tmp/.ICE-unix/2529,unix/vallari-laptop:/tmp/.ICE-unix/2529'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0786257_e7de_4641_a06c_3ea06e3ef8cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vallari/Development/ptnet/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '8365315154642626'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099579] (-) TimerEvent: {}
+[0.139709] (point_cloud_processing) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.140007] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199723] (-) TimerEvent: {}
+[0.242794] (point_cloud_processing) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.243276] (turtlebot3_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.261332] (point_cloud_processing) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.261716] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299862] (-) TimerEvent: {}
+[0.326634] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.326936] (point_cloud_processing) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.334696] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.335157] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.335423] (point_cloud_processing) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.335614] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.335743] (point_cloud_processing) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.336045] (point_cloud_processing) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.346329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.346622] (point_cloud_processing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400011] (-) TimerEvent: {}
+[0.417511] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.417905] (point_cloud_processing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.425721] (point_cloud_processing) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.426008] (point_cloud_processing) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.426396] (point_cloud_processing) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.426913] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.427224] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.427622] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.430536] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.430684] (point_cloud_processing) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500138] (-) TimerEvent: {}
+[0.542350] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.542621] (point_cloud_processing) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600277] (-) TimerEvent: {}
+[0.639915] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/vallari/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.640178] (turtlebot3_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.640268] (turtlebot3_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.640347] (turtlebot3_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.640414] (turtlebot3_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.640482] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.640548] (turtlebot3_gazebo) StderrLine: {'line': b'  /home/vallari/.local/lib/python3.10/site-packages/cmake/data/share/cmake-3.27/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.640616] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.640679] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[0.640743] (turtlebot3_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.640806] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[0.640867] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.642136] (point_cloud_processing) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):\n'}
+[0.642215] (point_cloud_processing) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.642257] (point_cloud_processing) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.642293] (point_cloud_processing) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.642324] (point_cloud_processing) StderrLine: {'line': b'\n'}
+[0.642354] (point_cloud_processing) StderrLine: {'line': b'  CMake variable EIGEN_ROOT is set to:\n'}
+[0.642384] (point_cloud_processing) StderrLine: {'line': b'\n'}
+[0.642412] (point_cloud_processing) StderrLine: {'line': b'    /usr/include/eigen3\n'}
+[0.642441] (point_cloud_processing) StderrLine: {'line': b'\n'}
+[0.642470] (point_cloud_processing) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.642500] (point_cloud_processing) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.642529] (point_cloud_processing) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.642558] (point_cloud_processing) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)\n'}
+[0.642589] (point_cloud_processing) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.642621] (point_cloud_processing) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.642652] (point_cloud_processing) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.642681] (point_cloud_processing) StderrLine: {'line': b'\x1b[0m\n'}
+[0.643791] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.646888] (point_cloud_processing) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[0.655474] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.657403] (point_cloud_processing) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[0.685799] (point_cloud_processing) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[0.686033] (point_cloud_processing) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.700368] (-) TimerEvent: {}
+[0.708733] (point_cloud_processing) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[0.710498] (point_cloud_processing) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):\n'}
+[0.710636] (point_cloud_processing) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.710722] (point_cloud_processing) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.710798] (point_cloud_processing) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.710866] (point_cloud_processing) StderrLine: {'line': b'\n'}
+[0.710934] (point_cloud_processing) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[0.710999] (point_cloud_processing) StderrLine: {'line': b'\n'}
+[0.711062] (point_cloud_processing) StderrLine: {'line': b'    /usr\n'}
+[0.711124] (point_cloud_processing) StderrLine: {'line': b'\n'}
+[0.711190] (point_cloud_processing) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.711252] (point_cloud_processing) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.711312] (point_cloud_processing) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.711371] (point_cloud_processing) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)\n'}
+[0.711431] (point_cloud_processing) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)\n'}
+[0.711490] (point_cloud_processing) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)\n'}
+[0.711550] (point_cloud_processing) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.711610] (point_cloud_processing) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.711669] (point_cloud_processing) StderrLine: {'line': b'\x1b[0m\n'}
+[0.725155] (point_cloud_processing) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[0.737951] (point_cloud_processing) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[0.759321] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.788614] (point_cloud_processing) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[0.788810] (point_cloud_processing) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.800481] (-) TimerEvent: {}
+[0.811805] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.822197] (point_cloud_processing) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.830943] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.894224] (point_cloud_processing) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.895107] (point_cloud_processing) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.897570] (point_cloud_processing) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[0.900582] (-) TimerEvent: {}
+[0.906416] (point_cloud_processing) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[0.925469] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.958777] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.965094] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.972043] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.973671] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.974011] (turtlebot3_gazebo) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.979392] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.990037] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.000680] (-) TimerEvent: {}
+[1.021176] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.036400] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.045160] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.049260] (point_cloud_processing) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.049585] (point_cloud_processing) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.053354] (point_cloud_processing) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.054243] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.054388] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.061994] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.062131] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.069518] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.069666] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.070603] (point_cloud_processing) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  \n'}
+[1.077323] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.077464] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.084865] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.085015] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.092187] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.095443] (point_cloud_processing) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.100782] (-) TimerEvent: {}
+[1.111537] (point_cloud_processing) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.200946] (-) TimerEvent: {}
+[1.242520] (point_cloud_processing) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.242902] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.247016] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.249618] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.250116] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.268130] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.280363] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.286179] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.301059] (-) TimerEvent: {}
+[1.302266] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.307143] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.307308] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.336574] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.341874] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.353533] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.366103] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.366298] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.386938] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.389987] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.390163] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.401173] (-) TimerEvent: {}
+[1.409760] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.418880] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.428125] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.428333] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.430014] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.466808] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.469240] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.469464] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.469824] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.472064] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.473421] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.487640] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.488151] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.488951] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.489109] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.490733] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.490944] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.491246] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.494161] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.494363] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.501273] (-) TimerEvent: {}
+[1.548109] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.548320] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.577905] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.581566] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /usr/lib/x86_64-linux-gnu/cmake/jsoncpp/jsoncppConfig.cmake:2 (cmake_policy):\n'}
+[1.581728] (turtlebot3_gazebo) StderrLine: {'line': b'  Compatibility with CMake < 3.5 will be removed from a future version of\n'}
+[1.581815] (turtlebot3_gazebo) StderrLine: {'line': b'  CMake.\n'}
+[1.581889] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[1.581964] (turtlebot3_gazebo) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[1.582033] (turtlebot3_gazebo) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[1.582099] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.582166] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/share/cmake/ignition-cmake2/cmake2/FindJSONCPP.cmake:34 (find_package)\n'}
+[1.582230] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/ignition-fuel_tools4/ignition-fuel_tools4-config.cmake:94 (find_package)\n'}
+[1.582300] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:251 (find_package)\n'}
+[1.582365] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[1.582427] (turtlebot3_gazebo) StderrLine: {'line': b'\n'}
+[1.582487] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[1.588637] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.601381] (-) TimerEvent: {}
+[1.602238] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.608255] (point_cloud_processing) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.632966] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.641563] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.653793] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.688316] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.688727] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.689086] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.689425] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.696028] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[1.698026] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.701443] (-) TimerEvent: {}
+[1.727735] (point_cloud_processing) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[1.729484] (point_cloud_processing) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.732910] (point_cloud_processing) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[1.734762] (point_cloud_processing) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[1.736626] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.742450] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.752872] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.753289] (point_cloud_processing) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.760062] (point_cloud_processing) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[1.766061] (point_cloud_processing) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[1.768641] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.770645] (point_cloud_processing) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[1.789872] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.801555] (-) TimerEvent: {}
+[1.850219] (point_cloud_processing) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[1.862933] (point_cloud_processing) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[1.895968] (point_cloud_processing) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[1.896708] (point_cloud_processing) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[1.896836] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.900501] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.901627] (-) TimerEvent: {}
+[1.953974] (point_cloud_processing) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[1.954173] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.954265] (point_cloud_processing) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.972254] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.001735] (-) TimerEvent: {}
+[2.031596] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.034415] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.101863] (-) TimerEvent: {}
+[2.138930] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.192039] (point_cloud_processing) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.192170] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.192255] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.201966] (-) TimerEvent: {}
+[2.289022] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.302075] (-) TimerEvent: {}
+[2.334981] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.346419] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.397206] (point_cloud_processing) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.402177] (-) TimerEvent: {}
+[2.457303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.502284] (-) TimerEvent: {}
+[2.533604] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.6 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.602409] (-) TimerEvent: {}
+[2.612236] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.616337] (point_cloud_processing) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.663565] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.666172] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/vallari/Development/ptnet/build/turtlebot3_gazebo\n'}
+[2.683970] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[2.684884] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[2.686380] (turtlebot3_gazebo) Command: {'cmd': ['/home/vallari/.local/bin/cmake', '--build', '/home/vallari/Development/ptnet/build/turtlebot3_gazebo', '--', '-j16', '-l16'], 'cwd': '/home/vallari/Development/ptnet/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vallari'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vallari'), ('OLDPWD', '/home/vallari/Development/ptnet/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vallari/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vallari'), ('DESKTOP_AUTOSTART_ID', '10d5c7e7fbcf1448d2171613291620051800000025290016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vallari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vallari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vallari-laptop:@/tmp/.ICE-unix/2529,unix/vallari-laptop:/tmp/.ICE-unix/2529'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0786257_e7de_4641_a06c_3ea06e3ef8cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vallari/Development/ptnet/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '8365315154642626'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.702507] (-) TimerEvent: {}
+[2.729823] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[2.730609] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[2.730984] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[2.731300] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[2.802639] (-) TimerEvent: {}
+[2.839004] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[2.840584] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[2.840763] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[2.841738] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[2.841968] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[2.842762] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[2.842887] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[2.843759] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[2.843904] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[2.844806] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[2.844953] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[2.845854] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[2.846062] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[2.846273] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[2.846470] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[2.846678] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[2.846815] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[2.847536] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[2.847731] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[2.848665] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[2.848907] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[2.849843] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[2.850131] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[2.850870] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[2.851086] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[2.851993] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[2.852196] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[2.853089] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[2.853351] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[2.854182] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[2.854385] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[2.855296] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[2.855537] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[2.856367] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[2.856549] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[2.857396] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[2.857621] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[2.858540] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[2.858695] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[2.859582] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[2.860030] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[2.860303] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[2.860446] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[2.860649] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[2.860793] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[2.861051] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[2.861207] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[2.862135] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[2.862317] (point_cloud_processing) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[2.863229] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[2.863936] (point_cloud_processing) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[2.865853] (point_cloud_processing) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.902817] (-) TimerEvent: {}
+[2.903572] (point_cloud_processing) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.908689] (point_cloud_processing) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.917101] (point_cloud_processing) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.930663] (point_cloud_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.949968] (point_cloud_processing) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.002950] (-) TimerEvent: {}
+[3.016166] (point_cloud_processing) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.018656] (point_cloud_processing) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.103060] (-) TimerEvent: {}
+[3.128175] (point_cloud_processing) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.161421] (point_cloud_processing) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.203201] (-) TimerEvent: {}
+[3.214843] (point_cloud_processing) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.303333] (-) TimerEvent: {}
+[3.364555] (point_cloud_processing) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.403485] (-) TimerEvent: {}
+[3.474692] (point_cloud_processing) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[3.503616] (-) TimerEvent: {}
+[3.589963] (point_cloud_processing) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[3.603749] (-) TimerEvent: {}
+[3.704108] (-) TimerEvent: {}
+[3.804471] (-) TimerEvent: {}
+[3.851164] (point_cloud_processing) StdoutLine: {'line': b'-- Configuring done (3.8s)\n'}
+[3.904602] (-) TimerEvent: {}
+[3.998612] (point_cloud_processing) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.002012] (point_cloud_processing) StdoutLine: {'line': b'-- Build files have been written to: /home/vallari/Development/ptnet/build/point_cloud_processing\n'}
+[4.004712] (-) TimerEvent: {}
+[4.028747] (point_cloud_processing) CommandEnded: {'returncode': 0}
+[4.029528] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'build'}
+[4.030505] (point_cloud_processing) Command: {'cmd': ['/home/vallari/.local/bin/cmake', '--build', '/home/vallari/Development/ptnet/build/point_cloud_processing', '--', '-j16', '-l16'], 'cwd': '/home/vallari/Development/ptnet/build/point_cloud_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vallari'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vallari'), ('OLDPWD', '/home/vallari/Development/ptnet/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vallari/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vallari'), ('DESKTOP_AUTOSTART_ID', '10d5c7e7fbcf1448d2171613291620051800000025290016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vallari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vallari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vallari-laptop:@/tmp/.ICE-unix/2529,unix/vallari-laptop:/tmp/.ICE-unix/2529'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0786257_e7de_4641_a06c_3ea06e3ef8cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vallari/Development/ptnet/build/point_cloud_processing'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '8365315154642626'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.077127] (point_cloud_processing) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/filtering_segmentation.dir/src/3_filtering_segmentation.cpp.o\x1b[0m\n'}
+[4.077328] (point_cloud_processing) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/pcd_import.dir/src/0_table_scene.cpp.o\x1b[0m\n'}
+[4.077433] (point_cloud_processing) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o\x1b[0m\n'}
+[4.077533] (point_cloud_processing) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/path_creation.dir/src/4_point_path_drawing.cpp.o\x1b[0m\n'}
+[4.077599] (point_cloud_processing) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/kd_tree.dir/src/6_kd_tree.cpp.o\x1b[0m\n'}
+[4.077858] (point_cloud_processing) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o\x1b[0m\n'}
+[4.077974] (point_cloud_processing) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/kitti_voxel.dir/src/5_kitti_data_voxel.cpp.o\x1b[0m\n'}
+[4.078077] (point_cloud_processing) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o\x1b[0m\n'}
+[4.104826] (-) TimerEvent: {}
+[4.205159] (-) TimerEvent: {}
+[4.305593] (-) TimerEvent: {}
+[4.405959] (-) TimerEvent: {}
+[4.506288] (-) TimerEvent: {}
+[4.606626] (-) TimerEvent: {}
+[4.706975] (-) TimerEvent: {}
+[4.807331] (-) TimerEvent: {}
+[4.907703] (-) TimerEvent: {}
+[5.008043] (-) TimerEvent: {}
+[5.108384] (-) TimerEvent: {}
+[5.208723] (-) TimerEvent: {}
+[5.309092] (-) TimerEvent: {}
+[5.409464] (-) TimerEvent: {}
+[5.509962] (-) TimerEvent: {}
+[5.610325] (-) TimerEvent: {}
+[5.710669] (-) TimerEvent: {}
+[5.810989] (-) TimerEvent: {}
+[5.911316] (-) TimerEvent: {}
+[6.011666] (-) TimerEvent: {}
+[6.112036] (-) TimerEvent: {}
+[6.212403] (-) TimerEvent: {}
+[6.312761] (-) TimerEvent: {}
+[6.413128] (-) TimerEvent: {}
+[6.513505] (-) TimerEvent: {}
+[6.614011] (-) TimerEvent: {}
+[6.714419] (-) TimerEvent: {}
+[6.814778] (-) TimerEvent: {}
+[6.847215] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/6_kd_tree.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.847465] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/6_kd_tree.cpp:33:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int, std::allocator<int> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.847612] (point_cloud_processing) StderrLine: {'line': b'   33 |     for (int i=0; \x1b[01;35m\x1b[Ki<indices.size()\x1b[m\x1b[K; i++)\n'}
+[6.847729] (point_cloud_processing) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.914898] (-) TimerEvent: {}
+[7.015250] (-) TimerEvent: {}
+[7.115583] (-) TimerEvent: {}
+[7.215896] (-) TimerEvent: {}
+[7.293129] (point_cloud_processing) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX executable circular_cloud\x1b[0m\n'}
+[7.316015] (-) TimerEvent: {}
+[7.352657] (point_cloud_processing) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable pcd_import\x1b[0m\n'}
+[7.355778] (point_cloud_processing) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable kd_tree\x1b[0m\n'}
+[7.416137] (-) TimerEvent: {}
+[7.516501] (-) TimerEvent: {}
+[7.616865] (-) TimerEvent: {}
+[7.717196] (-) TimerEvent: {}
+[7.817554] (-) TimerEvent: {}
+[7.869471] (point_cloud_processing) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable plane_cloud\x1b[0m\n'}
+[7.917676] (-) TimerEvent: {}
+[7.979704] (point_cloud_processing) StdoutLine: {'line': b'[ 75%] Built target pcd_import\n'}
+[8.017798] (-) TimerEvent: {}
+[8.034233] (point_cloud_processing) StdoutLine: {'line': b'[ 75%] Built target circular_cloud\n'}
+[8.117986] (-) TimerEvent: {}
+[8.218327] (-) TimerEvent: {}
+[8.253713] (point_cloud_processing) StdoutLine: {'line': b'[ 75%] Built target plane_cloud\n'}
+[8.318437] (-) TimerEvent: {}
+[8.418771] (-) TimerEvent: {}
+[8.519127] (-) TimerEvent: {}
+[8.619480] (-) TimerEvent: {}
+[8.719827] (-) TimerEvent: {}
+[8.820163] (-) TimerEvent: {}
+[8.920503] (-) TimerEvent: {}
+[9.020843] (-) TimerEvent: {}
+[9.121203] (-) TimerEvent: {}
+[9.221563] (-) TimerEvent: {}
+[9.321923] (-) TimerEvent: {}
+[9.327376] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/4_point_path_drawing.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.327578] (point_cloud_processing) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/4_point_path_drawing.cpp:19:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.327684] (point_cloud_processing) StderrLine: {'line': b'   19 |         for(int i=0;\x1b[01;35m\x1b[Ki<cloud->points.size()\x1b[m\x1b[K;i++){\n'}
+[9.327755] (point_cloud_processing) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.349973] (point_cloud_processing) StdoutLine: {'line': b'[ 75%] Built target kd_tree\n'}
+[9.422044] (-) TimerEvent: {}
+[9.522400] (-) TimerEvent: {}
+[9.622782] (-) TimerEvent: {}
+[9.723162] (-) TimerEvent: {}
+[9.823480] (-) TimerEvent: {}
+[9.923798] (-) TimerEvent: {}
+[10.024115] (-) TimerEvent: {}
+[10.124439] (-) TimerEvent: {}
+[10.224759] (-) TimerEvent: {}
+[10.325083] (-) TimerEvent: {}
+[10.373095] (point_cloud_processing) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable path_creation\x1b[0m\n'}
+[10.425224] (-) TimerEvent: {}
+[10.525567] (-) TimerEvent: {}
+[10.625905] (-) TimerEvent: {}
+[10.726247] (-) TimerEvent: {}
+[10.826579] (-) TimerEvent: {}
+[10.844394] (point_cloud_processing) StdoutLine: {'line': b'[ 81%] Built target path_creation\n'}
+[10.926694] (-) TimerEvent: {}
+[11.027013] (-) TimerEvent: {}
+[11.127337] (-) TimerEvent: {}
+[11.227688] (-) TimerEvent: {}
+[11.328052] (-) TimerEvent: {}
+[11.428411] (-) TimerEvent: {}
+[11.528779] (-) TimerEvent: {}
+[11.629143] (-) TimerEvent: {}
+[11.729582] (-) TimerEvent: {}
+[11.829911] (-) TimerEvent: {}
+[11.928585] (point_cloud_processing) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable filtering_segmentation\x1b[0m\n'}
+[11.929979] (-) TimerEvent: {}
+[12.030248] (-) TimerEvent: {}
+[12.130574] (-) TimerEvent: {}
+[12.230909] (-) TimerEvent: {}
+[12.331295] (-) TimerEvent: {}
+[12.431668] (-) TimerEvent: {}
+[12.532004] (-) TimerEvent: {}
+[12.632363] (-) TimerEvent: {}
+[12.732714] (-) TimerEvent: {}
+[12.833128] (-) TimerEvent: {}
+[12.933490] (-) TimerEvent: {}
+[13.033845] (-) TimerEvent: {}
+[13.134191] (-) TimerEvent: {}
+[13.234546] (-) TimerEvent: {}
+[13.334890] (-) TimerEvent: {}
+[13.435245] (-) TimerEvent: {}
+[13.535634] (-) TimerEvent: {}
+[13.636005] (-) TimerEvent: {}
+[13.736315] (-) TimerEvent: {}
+[13.836630] (-) TimerEvent: {}
+[13.936979] (-) TimerEvent: {}
+[14.037387] (-) TimerEvent: {}
+[14.137737] (-) TimerEvent: {}
+[14.238024] (-) TimerEvent: {}
+[14.261174] (point_cloud_processing) StdoutLine: {'line': b'[ 87%] Built target filtering_segmentation\n'}
+[14.338136] (-) TimerEvent: {}
+[14.438446] (-) TimerEvent: {}
+[14.538776] (-) TimerEvent: {}
+[14.639111] (-) TimerEvent: {}
+[14.739447] (-) TimerEvent: {}
+[14.991176] (-) TimerEvent: {}
+[15.091520] (-) TimerEvent: {}
+[15.191863] (-) TimerEvent: {}
+[15.292182] (-) TimerEvent: {}
+[15.338684] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[15.392281] (-) TimerEvent: {}
+[15.428979] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[15.448502] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[15.492394] (-) TimerEvent: {}
+[15.592707] (-) TimerEvent: {}
+[15.693045] (-) TimerEvent: {}
+[15.793401] (-) TimerEvent: {}
+[16.146825] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[16.147067] (-) TimerEvent: {}
+[16.247384] (-) TimerEvent: {}
+[16.615481] (-) TimerEvent: {}
+[16.715922] (-) TimerEvent: {}
+[16.816361] (-) TimerEvent: {}
+[16.916802] (-) TimerEvent: {}
+[17.017253] (-) TimerEvent: {}
+[17.117727] (-) TimerEvent: {}
+[17.218090] (-) TimerEvent: {}
+[17.297588] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[17.297811] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle1\n'}
+[17.297890] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacle2\n'}
+[17.318219] (-) TimerEvent: {}
+[17.418579] (-) TimerEvent: {}
+[17.511903] (point_cloud_processing) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable kitti_voxel\x1b[0m\n'}
+[17.518703] (-) TimerEvent: {}
+[17.551688] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target turtlebot3_drive\n'}
+[17.561552] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[17.618825] (-) TimerEvent: {}
+[17.622441] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[17.650311] (turtlebot3_gazebo) Command: {'cmd': ['/home/vallari/.local/bin/cmake', '--install', '/home/vallari/Development/ptnet/build/turtlebot3_gazebo'], 'cwd': '/home/vallari/Development/ptnet/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vallari'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vallari'), ('OLDPWD', '/home/vallari/Development/ptnet/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vallari/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vallari'), ('DESKTOP_AUTOSTART_ID', '10d5c7e7fbcf1448d2171613291620051800000025290016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vallari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vallari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vallari-laptop:@/tmp/.ICE-unix/2529,unix/vallari-laptop:/tmp/.ICE-unix/2529'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0786257_e7de_4641_a06c_3ea06e3ef8cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vallari/Development/ptnet/build/turtlebot3_gazebo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '8365315154642626'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[17.671617] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.671974] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[17.676492] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/vallari/Development/ptnet/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""\n'}
+[17.676716] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch\n'}
+[17.676918] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[17.677042] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[17.677153] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[17.677248] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[17.677311] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[17.677348] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[17.677405] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[17.677456] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[17.677518] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[17.677572] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models\n'}
+[17.677605] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world\n'}
+[17.677663] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[17.677760] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes\n'}
+[17.677815] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[17.677896] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[17.677993] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[17.678111] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[17.678257] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle\n'}
+[17.678316] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[17.678442] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[17.678531] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[17.678620] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world\n'}
+[17.678687] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls\n'}
+[17.678754] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[17.678838] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[17.678932] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[17.679051] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin\n'}
+[17.679121] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[17.679219] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[17.679313] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[17.679387] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[17.679504] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box\n'}
+[17.679583] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[17.679675] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[17.679758] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles\n'}
+[17.679817] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[17.679909] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[17.680000] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1\n'}
+[17.680067] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[17.680176] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[17.680277] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2\n'}
+[17.680341] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[17.680439] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[17.680533] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[17.680652] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz\n'}
+[17.680732] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[17.680794] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf\n'}
+[17.680861] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[17.680963] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds\n'}
+[17.681025] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[17.681201] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[17.681325] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/include/\n'}
+[17.681417] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/include//turtlebot3_gazebo\n'}
+[17.681460] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[17.681662] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[17.681815] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[17.682004] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[17.682091] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[17.682264] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[17.682432] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[17.682547] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[17.682641] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[17.682736] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[17.682833] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[17.682935] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[17.683074] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[17.683232] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[17.683355] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[17.683447] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[17.683542] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[17.683652] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[17.689554] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[17.718949] (-) TimerEvent: {}
+[17.767176] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[17.819112] (-) TimerEvent: {}
+[17.919444] (-) TimerEvent: {}
+[18.020087] (-) TimerEvent: {}
+[18.120418] (-) TimerEvent: {}
+[18.220752] (-) TimerEvent: {}
+[18.279290] (point_cloud_processing) StdoutLine: {'line': b'[ 93%] Built target kitti_voxel\n'}
+[18.320877] (-) TimerEvent: {}
+[18.421204] (-) TimerEvent: {}
+[18.521599] (-) TimerEvent: {}
+[18.621922] (-) TimerEvent: {}
+[18.722237] (-) TimerEvent: {}
+[18.822559] (-) TimerEvent: {}
+[18.922866] (-) TimerEvent: {}
+[19.023246] (-) TimerEvent: {}
+[19.123619] (-) TimerEvent: {}
+[19.223965] (-) TimerEvent: {}
+[19.324360] (-) TimerEvent: {}
+[19.424788] (-) TimerEvent: {}
+[19.525151] (-) TimerEvent: {}
+[19.625536] (-) TimerEvent: {}
+[19.726066] (-) TimerEvent: {}
+[19.826413] (-) TimerEvent: {}
+[19.926857] (-) TimerEvent: {}
+[20.027397] (-) TimerEvent: {}
+[20.127891] (-) TimerEvent: {}
+[20.228355] (-) TimerEvent: {}
+[20.328749] (-) TimerEvent: {}
+[20.429152] (-) TimerEvent: {}
+[20.529834] (-) TimerEvent: {}
+[20.630222] (-) TimerEvent: {}
+[20.730594] (-) TimerEvent: {}
+[20.830993] (-) TimerEvent: {}
+[20.931376] (-) TimerEvent: {}
+[21.020478] (point_cloud_processing) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable traffic_segmentation\x1b[0m\n'}
+[21.031471] (-) TimerEvent: {}
+[21.131773] (-) TimerEvent: {}
+[21.232177] (-) TimerEvent: {}
+[21.332625] (-) TimerEvent: {}
+[21.433130] (-) TimerEvent: {}
+[21.533565] (-) TimerEvent: {}
+[21.633963] (-) TimerEvent: {}
+[21.734295] (-) TimerEvent: {}
+[21.834633] (-) TimerEvent: {}
+[21.934980] (-) TimerEvent: {}
+[22.035337] (-) TimerEvent: {}
+[22.135695] (-) TimerEvent: {}
+[22.236060] (-) TimerEvent: {}
+[22.336397] (-) TimerEvent: {}
+[22.436747] (-) TimerEvent: {}
+[22.537190] (-) TimerEvent: {}
+[22.638050] (-) TimerEvent: {}
+[22.738391] (-) TimerEvent: {}
+[22.838724] (-) TimerEvent: {}
+[22.939080] (-) TimerEvent: {}
+[23.039421] (-) TimerEvent: {}
+[23.139751] (-) TimerEvent: {}
+[23.240073] (-) TimerEvent: {}
+[23.340397] (-) TimerEvent: {}
+[23.348175] (point_cloud_processing) StdoutLine: {'line': b'[100%] Built target traffic_segmentation\n'}
+[23.360405] (point_cloud_processing) CommandEnded: {'returncode': 0}
+[23.440510] (-) TimerEvent: {}
+[23.441338] (point_cloud_processing) JobProgress: {'identifier': 'point_cloud_processing', 'progress': 'install'}
+[23.442608] (point_cloud_processing) Command: {'cmd': ['/home/vallari/.local/bin/cmake', '--install', '/home/vallari/Development/ptnet/build/point_cloud_processing'], 'cwd': '/home/vallari/Development/ptnet/build/point_cloud_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'vallari'), ('STARSHIP_SHELL', 'bash'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vallari'), ('OLDPWD', '/home/vallari/Development/ptnet/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2529'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vallari/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vallari'), ('DESKTOP_AUTOSTART_ID', '10d5c7e7fbcf1448d2171613291620051800000025290016'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vallari'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/vallari/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vallari-laptop:@/tmp/.ICE-unix/2529,unix/vallari-laptop:/tmp/.ICE-unix/2529'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b0786257_e7de_4641_a06c_3ea06e3ef8cd'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.80'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vallari/Development/ptnet/build/point_cloud_processing'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '8365315154642626'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[23.462987] (point_cloud_processing) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.463584] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/pcd_import\n'}
+[23.463757] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/plane_cloud\n'}
+[23.463854] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/circular_cloud\n'}
+[23.463983] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/filtering_segmentation\n'}
+[23.464635] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/path_creation\n'}
+[23.465104] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kitti_voxel\n'}
+[23.468377] (point_cloud_processing) StdoutLine: {'line': b'-- Set runtime path of "/home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kitti_voxel" to ""\n'}
+[23.468535] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kd_tree\n'}
+[23.468656] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/traffic_segmentation\n'}
+[23.473189] (point_cloud_processing) StdoutLine: {'line': b'-- Set runtime path of "/home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/traffic_segmentation" to ""\n'}
+[23.473270] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch\n'}
+[23.473364] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/rtab_mapping.launch.py\n'}
+[23.473464] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/bring_rviz.launch.py\n'}
+[23.473683] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/process_kitti.launch.py\n'}
+[23.473836] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//rviz\n'}
+[23.474017] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//rviz/kitti_viz.rviz\n'}
+[23.474117] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing\n'}
+[23.474232] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing\n'}
+[23.474350] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh\n'}
+[23.474455] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv\n'}
+[23.474565] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh\n'}
+[23.474671] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv\n'}
+[23.474781] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash\n'}
+[23.474944] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh\n'}
+[23.475059] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh\n'}
+[23.475156] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv\n'}
+[23.475272] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/package.dsv\n'}
+[23.475422] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing\n'}
+[23.475593] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake\n'}
+[23.475704] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake\n'}
+[23.475824] (point_cloud_processing) StdoutLine: {'line': b'-- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/package.xml\n'}
+[23.481469] (point_cloud_processing) CommandEnded: {'returncode': 0}
+[23.540624] (-) TimerEvent: {}
+[23.570916] (point_cloud_processing) JobEnded: {'identifier': 'point_cloud_processing', 'rc': 0}
+[23.571884] (-) EventReactorShutdown: {}

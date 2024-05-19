@@ -1,0 +1,4 @@
+Invoking command in '/home/vallari/Development/ptnet/build/ros2_kitti_publishers': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/ros2_kitti_publishers -- -j16 -l16
+Invoked command in '/home/vallari/Development/ptnet/build/ros2_kitti_publishers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/ros2_kitti_publishers -- -j16 -l16
+Invoking command in '/home/vallari/Development/ptnet/build/ros2_kitti_publishers': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/ros2_kitti_publishers
+Invoked command in '/home/vallari/Development/ptnet/build/ros2_kitti_publishers' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/ros2_kitti_publishers

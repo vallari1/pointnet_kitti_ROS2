@@ -1,0 +1,1 @@
+/home/vallari/Development/ptnet/build/ros2_kitti_publishers/ament_cmake_core/ros2_kitti_publishersConfig-version.cmake

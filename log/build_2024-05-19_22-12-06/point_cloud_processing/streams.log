@@ -1,0 +1,241 @@
+[0.015s] Invoking command in '/home/vallari/Development/ptnet/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake /home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing -DCMAKE_INSTALL_PREFIX=/home/vallari/Development/ptnet/install/point_cloud_processing
+[0.139s] -- The C compiler identification is GNU 11.4.0
+[0.242s] -- The CXX compiler identification is GNU 11.4.0
+[0.261s] -- Detecting C compiler ABI info
+[0.326s] -- Detecting C compiler ABI info - done
+[0.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.335s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.346s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.425s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.426s] -- Detecting CXX compile features
+[0.426s] -- Detecting CXX compile features - done
+[0.430s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.542s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.642s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[0.642s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.642s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.642s]   cmake_policy command to set the policy and suppress this warning.
+[0.642s] 
+[0.642s]   CMake variable EIGEN_ROOT is set to:
+[0.642s] 
+[0.642s]     /usr/include/eigen3
+[0.642s] 
+[0.642s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.642s]   .cmake module might still use it.
+[0.642s] Call Stack (most recent call first):
+[0.642s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[0.642s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.642s]   CMakeLists.txt:9 (find_package)
+[0.642s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.642s] [0m
+[0.646s] -- Checking for module 'eigen3'
+[0.657s] --   Found eigen3, version 3.4.0
+[0.685s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.686s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.708s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.710s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[0.710s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.710s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.710s]   cmake_policy command to set the policy and suppress this warning.
+[0.710s] 
+[0.710s]   CMake variable FLANN_ROOT is set to:
+[0.711s] 
+[0.711s]     /usr
+[0.711s] 
+[0.711s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.711s]   .cmake module might still use it.
+[0.711s] Call Stack (most recent call first):
+[0.711s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[0.711s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[0.711s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.711s]   CMakeLists.txt:9 (find_package)
+[0.711s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.711s] [0m
+[0.725s] -- Checking for module 'flann'
+[0.738s] --   Found flann, version 1.9.1
+[0.788s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.788s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.822s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.894s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.895s] -- Found Threads: TRUE  
+[0.897s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[0.906s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.049s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.049s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.053s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.070s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")  
+[1.095s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.111s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.242s] -- Found X11: /usr/include   
+[1.242s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.307s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.307s] -- Looking for gethostbyname
+[1.366s] -- Looking for gethostbyname - found
+[1.366s] -- Looking for connect
+[1.428s] -- Looking for connect - found
+[1.428s] -- Looking for remove
+[1.488s] -- Looking for remove - found
+[1.489s] -- Looking for shmat
+[1.548s] -- Looking for shmat - found
+[1.548s] -- Looking for IceConnectionNumber in ICE
+[1.608s] -- Looking for IceConnectionNumber in ICE - found
+[1.727s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[1.729s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.732s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[1.734s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[1.753s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.760s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[1.766s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[1.770s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.850s] -- Checking for module 'libusb-1.0'
+[1.863s] --   Found libusb-1.0, version 1.0.25
+[1.896s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.896s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[1.896s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.954s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[1.954s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.954s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.192s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.192s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.192s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.397s] -- Found Qhull version 8.0.2
+[2.616s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.839s] -- looking for PCL_COMMON
+[2.840s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.840s] -- looking for PCL_KDTREE
+[2.841s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.842s] -- looking for PCL_OCTREE
+[2.842s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.842s] -- looking for PCL_SEARCH
+[2.843s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.843s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.844s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.844s] -- looking for PCL_FILTERS
+[2.845s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.846s] -- looking for PCL_2D
+[2.846s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[2.846s] -- looking for PCL_GEOMETRY
+[2.846s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[2.846s] -- looking for PCL_IO
+[2.847s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.847s] -- looking for PCL_FEATURES
+[2.848s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.848s] -- looking for PCL_ML
+[2.849s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.850s] -- looking for PCL_SEGMENTATION
+[2.850s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.851s] -- looking for PCL_VISUALIZATION
+[2.852s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.852s] -- looking for PCL_SURFACE
+[2.853s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.853s] -- looking for PCL_REGISTRATION
+[2.854s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.854s] -- looking for PCL_KEYPOINTS
+[2.855s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.855s] -- looking for PCL_TRACKING
+[2.856s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.856s] -- looking for PCL_RECOGNITION
+[2.857s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.857s] -- looking for PCL_STEREO
+[2.858s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.858s] -- looking for PCL_APPS
+[2.859s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.860s] -- looking for PCL_IN_HAND_SCANNER
+[2.860s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[2.860s] -- looking for PCL_MODELER
+[2.860s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[2.860s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.861s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[2.861s] -- looking for PCL_OUTOFCORE
+[2.862s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.862s] -- looking for PCL_PEOPLE
+[2.863s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.863s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[2.865s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.903s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.908s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.917s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.930s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.950s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.016s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.018s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.128s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.161s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.364s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.474s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[3.590s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.851s] -- Configuring done (3.8s)
+[3.998s] -- Generating done (0.1s)
+[4.002s] -- Build files have been written to: /home/vallari/Development/ptnet/build/point_cloud_processing
+[4.028s] Invoked command in '/home/vallari/Development/ptnet/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake /home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing -DCMAKE_INSTALL_PREFIX=/home/vallari/Development/ptnet/install/point_cloud_processing
+[4.030s] Invoking command in '/home/vallari/Development/ptnet/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/point_cloud_processing -- -j16 -l16
+[4.077s] [ 18%] [32mBuilding CXX object CMakeFiles/filtering_segmentation.dir/src/3_filtering_segmentation.cpp.o[0m
+[4.077s] [ 18%] [32mBuilding CXX object CMakeFiles/pcd_import.dir/src/0_table_scene.cpp.o[0m
+[4.077s] [ 18%] [32mBuilding CXX object CMakeFiles/plane_cloud.dir/src/1_planner_cloud.cpp.o[0m
+[4.077s] [ 25%] [32mBuilding CXX object CMakeFiles/path_creation.dir/src/4_point_path_drawing.cpp.o[0m
+[4.077s] [ 31%] [32mBuilding CXX object CMakeFiles/kd_tree.dir/src/6_kd_tree.cpp.o[0m
+[4.077s] [ 37%] [32mBuilding CXX object CMakeFiles/traffic_segmentation.dir/src/7_traffic_segmentation.cpp.o[0m
+[4.077s] [ 43%] [32mBuilding CXX object CMakeFiles/kitti_voxel.dir/src/5_kitti_data_voxel.cpp.o[0m
+[4.078s] [ 50%] [32mBuilding CXX object CMakeFiles/circular_cloud.dir/src/2_circular_cloud.cpp.o[0m
+[6.847s] [01m[K/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/6_kd_tree.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[6.847s] [01m[K/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/6_kd_tree.cpp:33:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int, std::allocator<int> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.847s]    33 |     for (int i=0; [01;35m[Ki<indices.size()[m[K; i++)
+[6.847s]       |                   [01;35m[K~^~~~~~~~~~~~~~~[m[K
+[7.293s] [ 56%] [32m[1mLinking CXX executable circular_cloud[0m
+[7.352s] [ 62%] [32m[1mLinking CXX executable pcd_import[0m
+[7.355s] [ 68%] [32m[1mLinking CXX executable kd_tree[0m
+[7.869s] [ 75%] [32m[1mLinking CXX executable plane_cloud[0m
+[7.979s] [ 75%] Built target pcd_import
+[8.034s] [ 75%] Built target circular_cloud
+[8.253s] [ 75%] Built target plane_cloud
+[9.327s] [01m[K/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/4_point_path_drawing.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[9.327s] [01m[K/home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing/src/4_point_path_drawing.cpp:19:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl::PointXYZ, Eigen::aligned_allocator<pcl::PointXYZ> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[9.327s]    19 |         for(int i=0;[01;35m[Ki<cloud->points.size()[m[K;i++){
+[9.327s]       |                     [01;35m[K~^~~~~~~~~~~~~~~~~~~~~[m[K
+[9.350s] [ 75%] Built target kd_tree
+[10.373s] [ 81%] [32m[1mLinking CXX executable path_creation[0m
+[10.844s] [ 81%] Built target path_creation
+[11.928s] [ 87%] [32m[1mLinking CXX executable filtering_segmentation[0m
+[14.261s] [ 87%] Built target filtering_segmentation
+[17.512s] [ 93%] [32m[1mLinking CXX executable kitti_voxel[0m
+[18.279s] [ 93%] Built target kitti_voxel
+[21.020s] [100%] [32m[1mLinking CXX executable traffic_segmentation[0m
+[23.348s] [100%] Built target traffic_segmentation
+[23.360s] Invoked command in '/home/vallari/Development/ptnet/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/point_cloud_processing -- -j16 -l16
+[23.442s] Invoking command in '/home/vallari/Development/ptnet/build/point_cloud_processing': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/point_cloud_processing
+[23.463s] -- Install configuration: ""
+[23.463s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/pcd_import
+[23.463s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/plane_cloud
+[23.463s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/circular_cloud
+[23.464s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/filtering_segmentation
+[23.464s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/path_creation
+[23.465s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kitti_voxel
+[23.468s] -- Set runtime path of "/home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kitti_voxel" to ""
+[23.468s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kd_tree
+[23.468s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/traffic_segmentation
+[23.473s] -- Set runtime path of "/home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/traffic_segmentation" to ""
+[23.473s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch
+[23.473s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/rtab_mapping.launch.py
+[23.473s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/bring_rviz.launch.py
+[23.473s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/process_kitti.launch.py
+[23.473s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//rviz
+[23.474s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//rviz/kitti_viz.rviz
+[23.474s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing
+[23.474s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing
+[23.474s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh
+[23.474s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv
+[23.474s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh
+[23.474s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv
+[23.474s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash
+[23.474s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh
+[23.475s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh
+[23.475s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv
+[23.475s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/package.dsv
+[23.475s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing
+[23.475s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake
+[23.475s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake
+[23.475s] -- Installing: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/package.xml
+[23.481s] Invoked command in '/home/vallari/Development/ptnet/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/point_cloud_processing

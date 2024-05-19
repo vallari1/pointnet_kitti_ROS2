@@ -1,0 +1,132 @@
+[0.012s] Invoking command in '/home/vallari/Development/ptnet/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake /home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vallari/Development/ptnet/install/point_cloud_processing
+[0.040s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.210s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.224s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:146 (find_package):
+[0.225s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.225s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.225s]   cmake_policy command to set the policy and suppress this warning.
+[0.225s] 
+[0.225s]   CMake variable EIGEN_ROOT is set to:
+[0.225s] 
+[0.225s]     /usr/include/eigen3
+[0.225s] 
+[0.225s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.225s]   .cmake module might still use it.
+[0.225s] Call Stack (most recent call first):
+[0.225s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:299 (find_eigen)
+[0.225s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.225s]   CMakeLists.txt:9 (find_package)
+[0.226s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.226s] [0m
+[0.229s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.237s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:44 (find_package):
+[0.238s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.238s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.238s]   cmake_policy command to set the policy and suppress this warning.
+[0.238s] 
+[0.238s]   CMake variable FLANN_ROOT is set to:
+[0.238s] 
+[0.238s]     /usr
+[0.238s] 
+[0.238s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.238s]   .cmake module might still use it.
+[0.238s] Call Stack (most recent call first):
+[0.238s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:256 (find_package)
+[0.238s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:301 (find_flann)
+[0.239s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:543 (find_external_library)
+[0.239s]   CMakeLists.txt:9 (find_package)
+[0.239s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.239s] [0m
+[0.271s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.651s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.656s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.656s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.889s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.895s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.900s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.123s] -- Found Qhull version 8.0.2
+[1.359s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.598s] -- looking for PCL_COMMON
+[1.598s] -- looking for PCL_KDTREE
+[1.598s] -- looking for PCL_OCTREE
+[1.599s] -- looking for PCL_SEARCH
+[1.599s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.600s] -- looking for PCL_FILTERS
+[1.600s] -- looking for PCL_2D
+[1.600s] -- looking for PCL_GEOMETRY
+[1.601s] -- looking for PCL_IO
+[1.601s] -- looking for PCL_FEATURES
+[1.601s] -- looking for PCL_ML
+[1.601s] -- looking for PCL_SEGMENTATION
+[1.602s] -- looking for PCL_VISUALIZATION
+[1.602s] -- looking for PCL_SURFACE
+[1.602s] -- looking for PCL_REGISTRATION
+[1.603s] -- looking for PCL_KEYPOINTS
+[1.603s] -- looking for PCL_TRACKING
+[1.604s] -- looking for PCL_RECOGNITION
+[1.605s] -- looking for PCL_STEREO
+[1.605s] -- looking for PCL_APPS
+[1.606s] -- looking for PCL_IN_HAND_SCANNER
+[1.606s] -- looking for PCL_MODELER
+[1.606s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.606s] -- looking for PCL_OUTOFCORE
+[1.607s] -- looking for PCL_PEOPLE
+[1.608s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.632s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.634s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.640s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.650s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.665s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.717s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.718s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.987s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.092s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[2.197s] -- Found visualization_msgs: 4.2.3 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.460s] -- Configuring done (2.4s)
+[2.573s] -- Generating done (0.1s)
+[2.576s] -- Build files have been written to: /home/vallari/Development/ptnet/build/point_cloud_processing
+[2.598s] Invoked command in '/home/vallari/Development/ptnet/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake /home/vallari/Development/ptnet/src/ROS2-Point-Cloud-Clustering-and-Segmentation-for-Autonomous-Behaviour/point_cloud_processing -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vallari/Development/ptnet/install/point_cloud_processing
+[2.599s] Invoking command in '/home/vallari/Development/ptnet/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/point_cloud_processing -- -j16 -l16
+[2.651s] [ 12%] Built target kd_tree
+[2.653s] [ 25%] Built target circular_cloud
+[2.653s] [ 37%] Built target plane_cloud
+[2.656s] [ 50%] Built target pcd_import
+[2.656s] [ 62%] Built target path_creation
+[2.658s] [ 68%] [32m[1mLinking CXX executable kitti_voxel[0m
+[2.660s] [ 81%] Built target filtering_segmentation
+[2.668s] [ 87%] [32m[1mLinking CXX executable traffic_segmentation[0m
+[3.582s] [ 93%] Built target kitti_voxel
+[4.544s] [100%] Built target traffic_segmentation
+[4.555s] Invoked command in '/home/vallari/Development/ptnet/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake --build /home/vallari/Development/ptnet/build/point_cloud_processing -- -j16 -l16
+[4.634s] Invoking command in '/home/vallari/Development/ptnet/build/point_cloud_processing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/point_cloud_processing
+[4.656s] -- Install configuration: ""
+[4.656s] -- Execute custom install script
+[4.656s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/pcd_import
+[4.659s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/plane_cloud
+[4.662s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/circular_cloud
+[4.665s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/filtering_segmentation
+[4.668s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/path_creation
+[4.670s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kitti_voxel
+[4.673s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/kd_tree
+[4.676s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/lib/point_cloud_processing/traffic_segmentation
+[4.680s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/bring_rviz.launch.py
+[4.683s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/process_kitti.launch.py
+[4.686s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//launch/rtab_mapping.launch.py
+[4.690s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing//rviz/kitti_viz.rviz
+[4.692s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/package_run_dependencies/point_cloud_processing
+[4.695s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/parent_prefix_path/point_cloud_processing
+[4.699s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.sh
+[4.701s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/ament_prefix_path.dsv
+[4.705s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/path.sh
+[4.708s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/environment/path.dsv
+[4.710s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.bash
+[4.714s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.sh
+[4.717s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.zsh
+[4.720s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/local_setup.dsv
+[4.723s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/package.dsv
+[4.726s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/ament_index/resource_index/packages/point_cloud_processing
+[4.729s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig.cmake
+[4.732s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/cmake/point_cloud_processingConfig-version.cmake
+[4.736s] -- Symlinking: /home/vallari/Development/ptnet/install/point_cloud_processing/share/point_cloud_processing/package.xml
+[4.745s] Invoked command in '/home/vallari/Development/ptnet/build/point_cloud_processing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /home/vallari/.local/bin/cmake --install /home/vallari/Development/ptnet/build/point_cloud_processing
